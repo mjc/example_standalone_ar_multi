@@ -1,3 +1,3 @@
 class Contact < ActiveRecord::Base
-  connection 'from'
+  establish_connection :from
 end

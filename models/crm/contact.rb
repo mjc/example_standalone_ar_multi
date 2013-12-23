@@ -1,3 +1,3 @@
 class Crm::Contact < ActiveRecord::Base
-  connection 'to'
+  establish_connection :to
 end
