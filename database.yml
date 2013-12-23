@@ -1,0 +1,6 @@
+from:
+  adapter: sqlite3
+  database: db/db1.sqlite3
+to:
+  adapter: sqlite3
+  database: db/db2.sqlite3
